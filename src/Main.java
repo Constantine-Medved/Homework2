@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -68,5 +69,12 @@ public class Main {
         System.out.println(totalBoxersWeight);
         var boxerWeightDifference = secondBoxerWeight - firstBoxerWeight;
         System.out.println(boxerWeightDifference);
+    }
+    public static void task7() {
+        System.out.println("Задача 7");
+        var firstBoxerWeight = 78.2;
+        var secondBoxerWeight = 82.7;
+        System.out.println(secondBoxerWeight - firstBoxerWeight);
+        System.out.println(secondBoxerWeight % firstBoxerWeight);
     }
 }
